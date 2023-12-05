@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  // --violet: #512da8;
+  // --blue: #5c6bc0;
+
+  // --primary: #fff;
+  // --primary-neutral: #efefef;
+
+  // --secondary: #000;
+  // --secondary-neutral: #333;
+
+  // --error: #cc0000;
+  // --success: #21974a;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+// .light {
+//   .txt {
+//     color: var(clr-secondary);
+//   }
+//   .sub_txt {
+//     color: var(clr-secondary--neutral);
+//   }
+
+//   .bg {
+//     background: var(clr-primary);
+//   }
+//   .sub_bg {
+//     background: var(clr-primary-neutral);
+//   }
+// }
+
+// .dark {
+//   .txt {
+//     color: var(--primary);
+//   }
+//   .sub_txt {
+//     color: var(--primary--neutral);
+//   }
+
+//   .bg {
+//     background: var(--secondary);
+//   }
+//   .sub_bg {
+//     background: var(--secondary-neutral);
+//   }
+// }
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.d_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
